@@ -1,0 +1,412 @@
+.blog {
+  padding-top: 20px;
+}
+
+.blog .blog-header {
+  background-color: white;
+  padding: 30px 0px;
+}
+
+.blog .blog-header .card {
+  height: 300px;
+  border-radius: unset;
+}
+
+.blog .blog-header .card .card-img-top {
+  height: 100%;
+  overflow: hidden;
+}
+
+.blog .blog-header .card .card-body {
+  padding: 20px 20px 0px 20px;
+  position: absolute;
+  background: white;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+  height: 105px;
+  text-align: center;
+}
+
+.blog .blog-header .card .card-body .card-title {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.blog .blog-header .card .card-body .card-text {
+  color: #76767a;
+  font-size: 12px;
+}
+
+.blog .blog-header .card .card-body Button {
+  background-color: #f47500;
+  border: none;
+  font-size: 11px;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+}
+
+.blog .blog-content .blog-content-header {
+  position: relative;
+  width: 100%;
+  font-size: 22px;
+  color: #f47500;
+  font-family: Covered-By-Your-Grace;
+}
+
+.blog .blog-content .blog-content-header span {
+  color: black;
+}
+
+.blog .blog-content .blog-content-header .view-all {
+  color: black;
+  position: absolute;
+  right: 3%;
+  top: 0%;
+}
+
+.blog .blog-content .blog-content-video {
+  position: relative;
+  padding: 0 15px;
+}
+
+.blog .blog-content .blog-content-video .card-body {
+  bottom: 0;
+}
+
+.blog .blog-content .blog-content-video .video-left {
+  width: 50%;
+}
+
+.blog .blog-content .blog-content-video .video-right {
+  padding-left: 3px;
+  position: absolute;
+  height: 100%;
+  width: 48%;
+  overflow: hidden;
+  right: 15px;
+  top: 0%;
+}
+
+.blog .blog-content .blog-content-video .video-right .card {
+  height: 50%;
+}
+
+.blog .blog-content .blog-content-video .video-right .card:nth-child(1) {
+  margin-bottom: 3px;
+}
+
+.blog .blog-content .blog-content-video .card .card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+.blog .blog-content .blog-content-video .card .card-body {
+  padding: 20px 20px 0px 20px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 90%;
+  height: 100px;
+  text-align: left;
+}
+
+.blog .blog-content .blog-content-video .card .card-body .card-title {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.blog .blog-content .blog-content-video .card .card-body .card-text {
+  font-size: 12px;
+  color: #76767a;
+}
+
+.blog .blog-content .blog-content-video .card .card-body Button {
+  padding: 0 6px;
+  font-size: 11px;
+  background-color: #f47500aa;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 0;
+}
+
+.blog .blog-content .blog-content-read-more {
+  margin-bottom: 25px;
+}
+
+.blog .blog-content .blog-content-read-more .card-img-top {
+  padding: 15px 15px 0 15px;
+  height: 250px;
+}
+
+.blog .blog-content .blog-content-read-more .card-body {
+  position: relative;
+  text-align: center;
+}
+
+.blog .blog-content .blog-content-read-more .card-body .card-title {
+  font-size: 22px;
+}
+
+.blog .blog-content .blog-content-read-more .card-body .card-text {
+  font-size: 14px;
+}
+
+.blog .blog-content .blog-content-read-more .card-body button {
+  padding: 3px 10px;
+  font-size: 11px;
+  position: absolute;
+  left: 50%;
+  top: -8%;
+  -webkit-transform: translate(-50%, -8%);
+          transform: translate(-50%, -8%);
+  background-color: #f47500;
+  border-color: white;
+}
+
+.blog .blog-content .popular-post {
+  border: 1px solid #bebebe;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0 0 25px;
+}
+
+.blog .blog-content .popular-post .title {
+  width: 100%;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #bebebe;
+}
+
+.blog .blog-content .popular-post .content {
+  padding: 15px;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) {
+  height: 200px;
+  width: 100%;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) .card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) .card-body {
+  padding: 20px 20px 0px 20px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  text-align: left;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) .card-body .card-title {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) .card-body .card-text {
+  font-size: 12px;
+  color: #76767a;
+  margin-bottom: 10px;
+}
+
+.blog .blog-content .popular-post .content .card:nth-child(1) .card-body Button {
+  padding: 0 6px;
+  font-size: 11px;
+  background-color: #f47500aa;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 0;
+  display: unset;
+}
+
+.blog .blog-content .popular-post .content .card {
+  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: unset;
+}
+
+.blog .blog-content .popular-post .content .card .card-img-top {
+  height: 65px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.blog .blog-content .popular-post .content .card .card-body {
+  padding: 0;
+}
+
+.blog .blog-content .popular-post .content .card .card-body .card-title {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.blog .blog-content .popular-post .content .card .card-body .card-text {
+  font-size: 10px;
+  margin-bottom: 0;
+  color: #76767a;
+}
+
+.blog .blog-content .popular-post .content .card .card-body button {
+  display: none;
+}
+
+.blog .blog-content .lastest-recipes {
+  border: 1px solid #bebebe;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0 0 25px;
+}
+
+.blog .blog-content .lastest-recipes .title {
+  width: 100%;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #bebebe;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .col-md-6 {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card {
+  border: unset;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card .card-img-top {
+  height: 80px;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card .card-body {
+  padding: 10px 0;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card .card-body .card-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card .card-body .card-text {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #767676;
+}
+
+.blog .blog-content .lastest-recipes .lastest-recipes-content .card .card-body button {
+  display: none;
+}
+
+.blog .blog-content .comments {
+  border: 1px solid #bebebe;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0 0 25px;
+}
+
+.blog .blog-content .comments .comments-title {
+  width: 100%;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #bebebe;
+}
+
+.blog .blog-content .comments .comments-content {
+  padding: 15px;
+  border-bottom: 1px solid #9b9b9b1a;
+  border-width: 90%;
+}
+
+.blog .blog-content .comments .comments-content .comments-content-avatar {
+  padding-left: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.blog .blog-content .comments .comments-content .comments-content-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.blog .blog-content .comments .comments-content .comments-content-title:hover {
+  color: #f47500;
+}
+
+.blog .blog-content .comments .comments-content .comments-content-text {
+  color: #47474a;
+  font-size: 12px;
+}
+
+.blog .blog-content .blog-footer .view-all {
+  right: 0;
+}
+
+.blog .blog-content .blog-footer .col-md-3 {
+  padding: 0;
+}
+
+.blog .blog-content .blog-footer .card {
+  border: unset;
+}
+
+.blog .blog-content .blog-footer .card .card-img-top {
+  height: 200px;
+}
+
+.blog .blog-content .blog-footer .card .card-body {
+  position: relative;
+  text-align: center;
+}
+
+.blog .blog-content .blog-footer .card .card-body .card-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.blog .blog-content .blog-footer .card .card-body .card-text {
+  font-size: 14px;
+}
+
+.blog .blog-content .blog-footer .card .card-body button {
+  padding: 3px 10px;
+  font-size: 11px;
+  position: absolute;
+  left: 50%;
+  top: -8%;
+  -webkit-transform: translate(-50%, -8%);
+          transform: translate(-50%, -8%);
+  background-color: #f47500;
+  border-color: white;
+}
+/*# sourceMappingURL=styles.css.map */

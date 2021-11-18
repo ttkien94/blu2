@@ -1,0 +1,349 @@
+.blog {
+  padding-top: 20px;
+
+  .blog-header {
+    background-color: white;
+    padding: 30px 0px;
+    .card {
+      height: 300px;
+      border-radius: unset;
+      .card-img-top {
+        height: 100%;
+        overflow: hidden;
+      }
+      .card-body {
+        padding: 20px 20px 0px 20px;
+        position: absolute;
+        background: white;
+        bottom: 5%;
+        left: 5%;
+        width: 90%;
+        height: 105px;
+        text-align: center;
+        .card-title {
+          font-weight: bold;
+          margin-bottom: 0;
+          font-size: 17px;
+        }
+        .card-text {
+          color: #76767a;
+          font-size: 12px;
+        }
+        Button {
+          background-color: #f47500;
+          border: none;
+          font-size: 11px;
+          position: absolute;
+          top: -10%;
+          left: 50%;
+          transform: translate(-50%, -10%);
+        }
+      }
+    }
+  }
+  .blog-content {
+    .blog-content-header {
+      position: relative;
+      width: 100%;
+      font-size: 22px;
+      color: #f47500;
+      font-family: Covered-By-Your-Grace;
+      span {
+        color: black;
+      }
+      .view-all {
+        color: black;
+        position: absolute;
+        right: 3%;
+        top: 0%;
+      }
+    }
+    .blog-content-video {
+      position: relative;
+      padding: 0 15px;
+      .card-body {
+        bottom: 0;
+      }
+      .video-left {
+        width: 50%;
+      }
+      .video-right {
+        padding-left: 3px;
+        position: absolute;
+        height: 100%;
+        width: 48%;
+        overflow: hidden;
+        right: 15px;
+        top: 0%;
+        .card {
+          height: 50%;
+        }
+        .card:nth-child(1) {
+          margin-bottom: 3px;
+        }
+      }
+      .card {
+        // height: 500px;
+        .card-img-top {
+          height: 100%;
+          width: 100%;
+        }
+        .card-body {
+          padding: 20px 20px 0px 20px;
+          position: absolute;
+          bottom: 0%;
+          left: 0%;
+          width: 90%;
+          height: 100px;
+          text-align: left;
+          .card-title {
+            font-size: 18px;
+            margin-bottom: 0;
+            color: white;
+            font-weight: bold;
+          }
+          .card-text {
+            font-size: 12px;
+            color: #76767a;
+          }
+          Button {
+            padding: 0 6px;
+            font-size: 11px;
+            background-color: #f47500aa;
+            border: none;
+            color: white;
+            position: absolute;
+            top: 0;
+          }
+        }
+      }
+      //   .video-right {
+      //     .card-img-top {
+      //       height: 250px;
+      //     }
+      //   }
+    }
+    .blog-content-read-more {
+      margin-bottom: 25px;
+      .card-img-top {
+        padding: 15px 15px 0 15px;
+        height: 250px;
+      }
+      .card-body {
+        position: relative;
+        text-align: center;
+        .card-title {
+          font-size: 22px;
+        }
+        .card-text {
+          font-size: 14px;
+        }
+        button {
+          padding: 3px 10px;
+          font-size: 11px;
+          position: absolute;
+          left: 50%;
+          top: -8%;
+          transform: translate(-50%, -8%);
+          background-color: #f47500;
+          border-color: white;
+        }
+      }
+    }
+
+    .popular-post {
+      border: 1px solid #bebebe;
+      box-shadow: 0px 0px 5px gray;
+      position: relative;
+      background-color: #ffffff;
+      margin: 0 0 25px;
+      .title {
+        width: 100%;
+        padding: 8px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #bebebe;
+      }
+      .content {
+        padding: 15px;
+        .card:nth-child(1) {
+          height: 200px;
+          width: 100%;
+          .card-img-top {
+            height: 100%;
+            width: 100%;
+          }
+          .card-body {
+            padding: 20px 20px 0px 20px;
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            width: 100%;
+            text-align: left;
+            .card-title {
+              font-size: 18px;
+              margin-bottom: 0;
+              color: white;
+              font-weight: bold;
+            }
+            .card-text {
+              font-size: 12px;
+              color: #76767a;
+              margin-bottom: 10px;
+            }
+            Button {
+              padding: 0 6px;
+              font-size: 11px;
+              background-color: #f47500aa;
+              border: none;
+              color: white;
+              position: absolute;
+              top: 0;
+              display: unset;
+            }
+          }
+        }
+        .card {
+          margin-bottom: 20px;
+          flex-direction: row;
+          border: unset;
+          .card-img-top {
+            height: 65px;
+            width: 80px;
+            margin-right: 10px;
+          }
+          .card-body {
+            padding: 0;
+            .card-title {
+              font-weight: bold;
+              font-size: 13px;
+              margin-bottom: 0;
+            }
+            .card-text {
+              font-size: 10px;
+              margin-bottom: 0;
+              color: #76767a;
+            }
+            button {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .lastest-recipes {
+      border: 1px solid #bebebe;
+      box-shadow: 0px 0px 5px gray;
+      position: relative;
+      background-color: #ffffff;
+      margin: 0 0 25px;
+      .title {
+        width: 100%;
+        padding: 8px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #bebebe;
+      }
+      .lastest-recipes-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .col-md-6 {
+          padding-right: 5px;
+          padding-left: 5px;
+          padding-bottom: 10px;
+        }
+        .card {
+          border: unset;
+          .card-img-top {
+            height: 80px;
+          }
+          .card-body {
+            padding: 10px 0;
+            .card-title {
+              font-size: 13px;
+              font-weight: bold;
+              margin-bottom: 5px;
+            }
+            .card-text {
+              margin-bottom: 0;
+              font-size: 12px;
+              color: #767676;
+            }
+            button {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .comments {
+      border: 1px solid #bebebe;
+      box-shadow: 0px 0px 5px gray;
+      position: relative;
+      background-color: #ffffff;
+      margin: 0 0 25px;
+      .comments-title {
+        width: 100%;
+        padding: 8px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #bebebe;
+      }
+      .comments-content {
+        padding: 15px;
+        border-bottom: 1px solid#9b9b9b1a;
+        border-width: 90%;
+        .comments-content-avatar {
+          //   width: 35px;
+          //   height: 35px;
+          padding-left: 15px;
+          flex: 0 0 25%;
+          max-width: 25%;
+        }
+        .comments-content-title {
+          font-weight: bold;
+          font-size: 15px;
+          &:hover {
+            color: #f47500;
+          }
+        }
+        .comments-content-text {
+          color: #47474a;
+          font-size: 12px;
+        }
+      }
+    }
+    .blog-footer {
+      .view-all {
+        right: 0;
+      }
+      .col-md-3 {
+        padding: 0;
+      }
+      .card {
+        border: unset;
+        .card-img-top {
+          height: 200px;
+        }
+        .card-body {
+          position: relative;
+          text-align: center;
+          .card-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+          }
+          .card-text {
+            font-size: 14px;
+          }
+          button {
+            padding: 3px 10px;
+            font-size: 11px;
+            position: absolute;
+            left: 50%;
+            top: -8%;
+            transform: translate(-50%, -8%);
+            background-color: #f47500;
+            border-color: white;
+          }
+        }
+      }
+    }
+  }
+}
